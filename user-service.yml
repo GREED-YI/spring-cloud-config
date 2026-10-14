@@ -4,3 +4,7 @@ spring:
     url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;
     username: sa
     password: '{cipher}AQAkLPowF+swAl+2ZDNsXW06eYgvhFwTWA6Ph7Q6Inj4Tx8dn0qsbtNr+F0m8qnv2x2i/9NtLLmvLXC/JASE3NGqaTteiI0WKj4OD2T+qZWVOrchh8be4qq5zxJQo9jVk87ZeIqT01bN4/RBztHSrkcJsPW7FzSWq2iXNqIQp2/gny9n0DuLb626UVnwbzeOFL1TlThGNnORd1/9vEV1GcLopEw15Lw9GnIXRu+p/Aq3WG+jPWscwDulnKw2cO+koy6XE7pGgyhGHvJE1ExY/ZUvaB5GMRYpUP6zvrgi7tdcohVhZFoXjzcYELqcoursYB/2H2Qw+EpV4yC9QmxJ8BSIBdgYOssLR97inwc06PG7qLsaeQo0j2sgGH4JoII5l5w='
+
+
+order-service:
+  url: http://localhost:8000/order-service/%s/orsers
